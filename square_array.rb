@@ -1,7 +1,9 @@
 require 'pry'
 
 def square_array(array)
-  newArr = array.each do |element|
-    element**2
+  array.each do | element |
+    element = element ** 2
+    newArr.push(element)
+  newArr
 end
 end
